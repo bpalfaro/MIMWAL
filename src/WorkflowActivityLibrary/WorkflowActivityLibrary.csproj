@@ -46,12 +46,13 @@
     <DelaySign>true</DelaySign>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.ResourceManagement, Version=4.1.2273.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.ResourceManagement, Version=4.4.1459.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\ReferencedAssemblies\4.1.3496.0\Microsoft.ResourceManagement.dll</HintPath>
+      <HintPath>..\..\..\..\..\MIMWorkspaces\ExternalLibraries\Microsoft.ResourceManagement.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ResourceManagement.WorkflowContract">
-      <HintPath>..\ReferencedAssemblies\4.1.3496.0\Microsoft.ResourceManagement.WorkflowContract.dll</HintPath>
+    <Reference Include="Microsoft.ResourceManagement.WorkflowContract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\MIMWorkspaces\ExternalLibraries\Microsoft.ResourceManagement.WorkflowContract.dll</HintPath>
     </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />

@@ -46,14 +46,17 @@
     <DelaySign>true</DelaySign>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.IdentityManagement.WebUI.Controls">
-      <HintPath>..\ReferencedAssemblies\4.1.3496.0\Microsoft.IdentityManagement.WebUI.Controls.dll</HintPath>
+    <Reference Include="Microsoft.IdentityManagement.WebUI.Controls, Version=4.4.1459.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\MIMWorkspaces\ExternalLibraries\Microsoft.IdentityManagement.WebUI.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.IdentityManagement.WFExtensionInterfaces">
-      <HintPath>..\ReferencedAssemblies\4.1.3496.0\Microsoft.IdentityManagement.WFExtensionInterfaces.dll</HintPath>
+    <Reference Include="Microsoft.IdentityManagement.WFExtensionInterfaces, Version=4.4.1459.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\MIMWorkspaces\ExternalLibraries\Microsoft.IdentityManagement.WFExtensionInterfaces.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ResourceManagement">
-      <HintPath>..\ReferencedAssemblies\4.1.3496.0\Microsoft.ResourceManagement.dll</HintPath>
+    <Reference Include="Microsoft.ResourceManagement, Version=4.4.1459.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\MIMWorkspaces\ExternalLibraries\Microsoft.ResourceManagement.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
